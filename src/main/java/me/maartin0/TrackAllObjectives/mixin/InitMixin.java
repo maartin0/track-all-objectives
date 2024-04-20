@@ -41,7 +41,7 @@ public abstract class InitMixin {
             ScoreboardCriterion criterionObject = optionalCriterionObject.get();
             try {
                 scoreboard.addObjective(
-                    criterion,
+                    criterion.replace(":", "."),
                     criterionObject,
                     Text.of(Main.toDisplayName(criterion)),
                     criterionObject.getDefaultRenderType(),
