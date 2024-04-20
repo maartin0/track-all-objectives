@@ -1,0 +1,23 @@
+{
+	"schemaVersion": 1,
+	"id": "trackallobjectives",
+	"version": "${version}",
+	"name": "Track all objectives",
+	"description": "A mod that sets up scoreboards to track ALL minecraft objectives",
+	"authors": [ "maartin0" ],
+	"license": "CC0-1.0",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.maartin0.TrackAllObjectives.Main"
+		]
+	},
+	"mixins": [
+		"trackallobjectives.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.9",
+		"minecraft": ">=1.16.1",
+		"java": ">=17"
+	}
+}
