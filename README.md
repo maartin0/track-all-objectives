@@ -8,3 +8,6 @@ Install the mod, start the server once then you can remove the mod from your mod
 
 ## Screenshot
 ![image](https://github.com/maartin0/track-all-objectives/assets/16228305/d367de98-f9e2-43f4-95a4-61532bf6976d)
+
+## See also
+[maartin0/per-player-scoreboard](https://github.com/maartin0/per-player-scoreboard) - A simple fabric mod to allow per-player scoreboards 
